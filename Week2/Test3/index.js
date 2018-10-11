@@ -33,7 +33,7 @@ module.exports = function (command) {
         return size;
     };
     function showPhone(phoneBook) {
-        if(phoneBook==undefined){return [];}
+        if(phoneBook==undefined){resultShow=[]; return resultShow ;}
         i=0; var resultShow = [];sumUndef=0;
         while (i<Object.size(phoneBook)) //перебор массива телефонной книги
         {
@@ -45,7 +45,7 @@ module.exports = function (command) {
              }
             i++;
         }
-        if (sumUndef==Object.size(phoneBook)){return [];}
+        if (sumUndef==Object.size(phoneBook)){resultShow=[]; return resultShow ;}
         else {resultShow.sort(sotrName);
         return resultShow;}
     };

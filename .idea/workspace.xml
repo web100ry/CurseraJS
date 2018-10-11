@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a15caf4-59b6-4f07-afb6-24c21103b029" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Week2/Test3/checks.js" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/Test3/checks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2/Test3/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/Test3/index.js" afterDir="false" />
     </list>
     <ignored path="Week1/index (1).mp4" />
     <ignored path="Week1/index (2).mp4" />
@@ -40,23 +40,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="5267" />
+          <entry key="js" value="5274" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="5267" />
+          <entry key="JavaScript" value="5274" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Week2/Test3/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="48" column="40" lean-forward="true" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+            <state relative-caret-position="196">
+              <caret line="35" column="66" selection-start-line="35" selection-start-column="66" selection-end-line="35" selection-end-column="66" />
               <folding>
                 <element signature="e#661#802#0" />
                 <element signature="e#1215#1700#0" />
@@ -76,10 +76,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week2/Test3/checks.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
+            <state relative-caret-position="241">
               <caret line="47" column="22" lean-forward="true" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
             </state>
           </provider>
@@ -111,8 +111,8 @@
         <option value="$PROJECT_DIR$/Week2/Test2/checks.js" />
         <option value="$PROJECT_DIR$/Week2/Test2/index.js" />
         <option value="$PROJECT_DIR$/Week2/Test3/test.js" />
-        <option value="$PROJECT_DIR$/Week2/Test3/index.js" />
         <option value="$PROJECT_DIR$/Week2/Test3/checks.js" />
+        <option value="$PROJECT_DIR$/Week2/Test3/index.js" />
       </list>
     </option>
   </component>
@@ -184,12 +184,12 @@
       <workItem from="1539074696036" duration="17248000" />
       <workItem from="1539154777087" duration="20121000" />
       <workItem from="1539239691449" duration="15252000" />
-      <workItem from="1539276647187" duration="8084000" />
+      <workItem from="1539276647187" duration="8694000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101148000" />
+    <option name="totallyTimeSpent" value="101758000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -202,8 +202,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1368" height="746" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2659091" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2659091" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -216,7 +217,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.26377296" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.26377296" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -340,23 +341,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Week2/Test3/checks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="47" column="22" lean-forward="true" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Week2/Test3/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="48" column="40" lean-forward="true" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+        <state relative-caret-position="196">
+          <caret line="35" column="66" selection-start-line="35" selection-start-column="66" selection-end-line="35" selection-end-column="66" />
           <folding>
             <element signature="e#661#802#0" />
             <element signature="e#1215#1700#0" />
             <element signature="e#1746#2027#0" />
             <element signature="e#2055#2121#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week2/Test3/checks.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="47" column="22" lean-forward="true" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
         </state>
       </provider>
     </entry>
