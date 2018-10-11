@@ -1,0 +1,1 @@
+console.info ('watermelon'.slice(2, 7));
