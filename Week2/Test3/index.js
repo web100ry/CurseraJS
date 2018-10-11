@@ -33,16 +33,21 @@ module.exports = function (command) {
         return size;
     };
     function showPhone(phoneBook) {
-        i=0; var resultShow = [];
+        if(phoneBook==undefined){return [];}
+        i=0; var resultShow = [];sumUndef=0;
         while (i<Object.size(phoneBook)) //перебор массива телефонной книги
         {
              if(phoneBook[i].phone[0]!==undefined){
                 resultShow.push (phoneBook[i].name +': '+phoneBook[i].phone.join(', '));
             }
+            else{
+                sumUndef++;
+             }
             i++;
         }
-        resultShow.sort(sotrName);
-        return resultShow;
+        if (sumUndef==Object.size(phoneBook)){return [];}
+        else {resultShow.sort(sotrName);
+        return resultShow;}
     };
     function addPhone(nameArr,phoneArr) {
         i=0;
