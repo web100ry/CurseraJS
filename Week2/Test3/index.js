@@ -6,25 +6,25 @@ var phoneBook = {};
  * @returns {*} - результат зависит от команды
  */
 module.exports = function (command) {
-    commandArr = command.split(' ');
-    commandName = commandArr[0];
+    commandArr = command.split(' '); //массив строки
+    commandName = commandArr[0]; //команда
 
        switch (commandName) {
            case 'ADD':
-               addPhone(commandArr[1],commandArr[2]);
+               addPhone(commandArr[1],commandArr[2]); //добавление имени, телефонов
                break;
 
            case 'SHOW':
-               return showPhone(phoneBook);
+               return showPhone(phoneBook); // демонстрация массива телефонной книги
                break;
 
            case  'REMOVE_PHONE':
-                return remotePhone(phoneBook, commandArr[1]);
+                return remotePhone(phoneBook, commandArr[1]); //удаление телефона из массива
                break;
            default:
                return false;
        }
-
+//определение размера массива объектов
     Object.size = function(obj) {
         var size = 0, key;
         for (key in obj) {
@@ -34,9 +34,9 @@ module.exports = function (command) {
     };
     function showPhone(phoneBook) {
         i=0; var resultShow = [];
-        while (i<Object.size(phoneBook))
+        while (i<Object.size(phoneBook)) //перебор массива телефонной книги
         {
-            if(phoneBook[i].phone[0]!==undefined){
+             if(phoneBook[i].phone[0]!==undefined){
                 resultShow.push (phoneBook[i].name +': '+phoneBook[i].phone.join(', '));
             }
             i++;
