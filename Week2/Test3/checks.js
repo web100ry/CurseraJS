@@ -51,5 +51,7 @@ assert.deepEqual(
     ],
     'В телефонной книге: "Ivan: 555-10-01, 555-10-02"'
 );
-
+phoneBook('REMOVE_PHONE 555-10-01');
+phoneBook('REMOVE_PHONE 555-10-02');
+console.info(phoneBook('SHOW'));
 console.info('OK!');
