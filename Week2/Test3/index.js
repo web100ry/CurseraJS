@@ -9,6 +9,17 @@ module.exports = function (command) {
     commandArr = command.split(' '); //массив строки
     commandName = commandArr[0]; //команда
 
+    //определение размера массива объектов
+    if(phoneBook!==undefined) {
+        Object.size = function (obj) {
+            var size = 0, key;
+            for (key in obj) {
+                if (obj.hasOwnProperty(key)) size++;
+            }
+            return size;
+        };
+    }
+
        switch (commandName) {
            case 'ADD':
                addPhone(commandArr[1],commandArr[2]); //добавление имени, телефонов
@@ -24,31 +35,31 @@ module.exports = function (command) {
            default:
                return false;
        }
-//определение размера массива объектов
-    Object.size = function(obj) {
-        var size = 0, key;
-        for (key in obj) {
-            if (obj.hasOwnProperty(key)) size++;
-        }
-        return size;
-    };
+
+
     function showPhone(phoneBook) {
-        if(phoneBook==undefined){resultShow=[]; return resultShow ;}
-        i=0; var resultShow = [];sumUndef=0;
-        while (i<Object.size(phoneBook)) //перебор массива телефонной книги
-        {
-             if(phoneBook[i].phone[0]!==undefined){
-                resultShow.push (phoneBook[i].name +': '+phoneBook[i].phone.join(', '));
+        i=0; let resultShow = []; sumUndef=0;
+        if(phoneBook==undefined){return resultShow;}
+        else {
+            while (i < Object.size(phoneBook)) //перебор массива телефонной книги
+            {
+                if (phoneBook[i].phone[0] !== undefined) {
+                    resultShow.push(phoneBook[i].name + ': ' + phoneBook[i].phone.join(', '));
+                }
+                else {
+                    sumUndef++;
+                }
+                i++;
             }
-            else{
-                sumUndef++;
-             }
-            i++;
+            if (sumUndef == Object.size(phoneBook)) {
+                return resultShow;
+            }
+            else {
+                resultShow.sort(sortName);
+                return resultShow;
+            }
         }
-        if (sumUndef==Object.size(phoneBook)){resultShow=[]; return resultShow ;}
-        else {resultShow.sort(sotrName);
-        return resultShow;}
-    };
+        }
     function addPhone(nameArr,phoneArr) {
         i=0;
         if (phoneBook[0] == undefined) {c=0;}
@@ -77,7 +88,7 @@ module.exports = function (command) {
         }return false;
 
     }
-    function sotrName(a,b) {
+    function sortName(a,b) {
         if (a > b) return 1;
         if (a < b) return -1;
     }

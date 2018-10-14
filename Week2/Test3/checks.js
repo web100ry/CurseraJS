@@ -3,7 +3,7 @@ var assert = require('assert');
 
 // Подключаем свою функцию
 var phoneBook = require('./index.js');
-
+console.info(phoneBook('SHOW'));
 // Добавляем телефоны контакту Ivan
 phoneBook('ADD Ivan 555-10-01,555-10-03');
 phoneBook('ADD Ivan 555-10-02');
@@ -51,6 +51,7 @@ assert.deepEqual(
     ],
     'В телефонной книге: "Ivan: 555-10-01, 555-10-02"'
 );
+console.info(phoneBook('SHOW'));
 phoneBook('REMOVE_PHONE 555-10-01');
 phoneBook('REMOVE_PHONE 555-10-02');
 console.info(phoneBook('SHOW'));

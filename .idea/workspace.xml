@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a15caf4-59b6-4f07-afb6-24c21103b029" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2/Test3/checks.js" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/Test3/checks.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week2/Test3/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/Test3/index.js" afterDir="false" />
     </list>
     <ignored path="Week1/index (1).mp4" />
@@ -13,11 +15,26 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1003146972">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="3" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.22" value="2" />
@@ -25,27 +42,38 @@
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.36" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="31" />
+          <entry key="dav" value="1" />
+          <entry key="htaccess" value="2" />
+          <entry key="js" value="33" />
+          <entry key="passwd" value="1" />
+          <entry key="php" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JavaScript" value="31" />
+          <entry key="JavaScript" value="33" />
+          <entry key="PHP" value="5" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="htaccess" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="5274" />
+          <entry key="htaccess" value="1" />
+          <entry key="js" value="5641" />
+          <entry key="php" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="5274" />
+          <entry key="JavaScript" value="5641" />
+          <entry key="PHP" value="20" />
+          <entry key="htaccess" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -55,23 +83,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Week2/Test3/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="35" column="66" selection-start-line="35" selection-start-column="66" selection-end-line="35" selection-end-column="66" />
-              <folding>
-                <element signature="e#661#802#0" />
-                <element signature="e#1215#1700#0" />
-                <element signature="e#1746#2027#0" />
-                <element signature="e#2055#2121#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week2/Test3/test.js">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+              <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+              <folding>
+                <element signature="e#1647#2132#0" />
+                <element signature="e#2178#2459#0" />
+                <element signature="e#2947#3013#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,8 +97,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week2/Test3/checks.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="47" column="22" lean-forward="true" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+            <state relative-caret-position="-15">
+              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -111,8 +129,10 @@
         <option value="$PROJECT_DIR$/Week2/Test2/checks.js" />
         <option value="$PROJECT_DIR$/Week2/Test2/index.js" />
         <option value="$PROJECT_DIR$/Week2/Test3/test.js" />
-        <option value="$PROJECT_DIR$/Week2/Test3/checks.js" />
+        <option value="&lt;41f5f5e9-20ba-4313-8c97-d733cd6908f4&gt;/www/ecross.pp.ua/index.php" />
+        <option value="&lt;41f5f5e9-20ba-4313-8c97-d733cd6908f4&gt;/www/ecross.pp.ua/.htaccess" />
         <option value="$PROJECT_DIR$/Week2/Test3/index.js" />
+        <option value="$PROJECT_DIR$/Week2/Test3/checks.js" />
       </list>
     </option>
   </component>
@@ -141,6 +161,17 @@
               <item name="CurseraJS" type="b2602c69:ProjectViewProjectNode" />
               <item name="CurseraJS" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CurseraJS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CurseraJS" type="462c0819:PsiDirectoryNode" />
+              <item name="Week2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CurseraJS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CurseraJS" type="462c0819:PsiDirectoryNode" />
+              <item name="Week2" type="462c0819:PsiDirectoryNode" />
+              <item name="Test3" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -150,6 +181,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Week1/index (2).mp4" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -184,12 +220,13 @@
       <workItem from="1539074696036" duration="17248000" />
       <workItem from="1539154777087" duration="20121000" />
       <workItem from="1539239691449" duration="15252000" />
-      <workItem from="1539276647187" duration="8694000" />
+      <workItem from="1539276647187" duration="20541000" />
+      <workItem from="1539453325760" duration="8340000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101758000" />
+    <option name="totallyTimeSpent" value="121945000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -204,7 +241,7 @@
     <frame x="-1" y="0" width="1368" height="746" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2659091" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27045456" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -217,13 +254,14 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.26377296" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.31886476" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="File Transfer" order="12" visible="true" weight="0.32888147" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.32954547" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32954547" />
     </layout>
     <layout-to-restore>
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -343,20 +381,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Week2/Test3/checks.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="47" column="22" lean-forward="true" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+        <state relative-caret-position="-15">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Week2/Test3/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="35" column="66" selection-start-line="35" selection-start-column="66" selection-end-line="35" selection-end-column="66" />
+        <state relative-caret-position="105">
+          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
           <folding>
-            <element signature="e#661#802#0" />
-            <element signature="e#1215#1700#0" />
-            <element signature="e#1746#2027#0" />
-            <element signature="e#2055#2121#0" />
+            <element signature="e#1647#2132#0" />
+            <element signature="e#2178#2459#0" />
+            <element signature="e#2947#3013#0" />
           </folding>
         </state>
       </provider>
